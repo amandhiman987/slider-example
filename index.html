@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Slider</title>
+		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<!-- <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/> -->
+		<style type="text/css">
+			.parallax-window {
+			    min-height: 400px;
+			    background: transparent;
+			}
+		</style>
+	</head>
+	<body style="background: black; color: white">
+		<div class="your-class" id="myslider">
+			<div class="item">
+				<img src="images/1.png" style="width: 100%; height: 400px;">
+				<h1>Heading</h1>
+				<h6>Descriptionsdf sdfd fsdf</h6>
+			</div>
+			<div class="item">
+				<img src="images/1.png" style="width: 100%; height: 400px;">
+				<h1>Heading</h1>
+				<h6>Descriptionsdf sdfd fsdf</h6>
+			</div>
+			<div class="item">
+				<img src="images/1.png" style="width: 100%; height: 400px;">
+				<h1>Heading</h1>
+				<h6>Descriptionsdf sdfd fsdf</h6>
+			</div>
+			<div class="item">
+				<img src="images/1.png" style="width: 100%; height: 400px;">
+				<h1>Heading</h1>
+				<h6>Descriptionsdf sdfd fsdf</h6>
+			</div>
+			<div class="item">
+				<img src="images/1.png" style="width: 100%; height: 400px;">
+				<h1>Heading</h1>
+				<h6>Descriptionsdf sdfd fsdf</h6>
+			</div>
+		</div>
+		<div class="parallax-window" data-parallax="scroll" data-speed="0.2" data-image-src="images/2.jpg">
+			
+		</div>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<p>sfdf</p>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/slick.js"></script>
+		<script type="text/javascript" src="js/parallax.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#myslider').slick({
+					infinite: true,
+					slidesToShow: 1,
+					autoplay: true,
+					slidesToScroll: 1,
+					autoplaySpeed: 1000,
+					fade: true
+				});
+
+				$('.parallax-window').parallax();
+			});
+		</script>
+	</body>
+</html>
